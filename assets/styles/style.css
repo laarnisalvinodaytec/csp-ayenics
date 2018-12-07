@@ -1,48 +1,165 @@
-*{
-	margin: 0;
-	padding:0;	
-	height:auto;
 
-}
-.landing-page-container{
-	height:600px;
-	background-color: #ff7733;
-	
-}
-.landing-page{
-	
-	padding-top:50px;
-}
- p{
-	font-family: 'Charmonman', cursive;
-	font-size:40px;
-	text-align: center;
-	margin-top:100px;
-	color:white;
-	font-weight: bold;
-}	
-img{
-	height:300px;
-	width:40%;
-	
-}
-.photo{
-	float:right;
+.landing-container{
+	background-color:#F5F0DC;
 	box-sizing: content-box;
+	height:auto;
+	padding-top:30px;
+}
+.landing-img img{
+	height: 600px;
+	width: 100%;
+	display:block;
 	text-align: center;
+}
+.landing-row{
+	height: 800px;
+	padding-left: 15px;
+    padding-right: 15px;
+    background-image:url('../images/paintings/behindeverysuccessful.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.title{
+	font-size: 35px;
+	text-align: center;
+}
+.view-container{
+	position:relative;
+		top:50%;
+}
+a{
+	font-size:15px;
+	
+}
+.footer-row{
+	background-color: black;
+	height:100px;
+	
+}
+span{
+	color:white;
+}
+.home-container{
+	background-color:#F5F0DC;
+	box-sizing: border-box;
+	height:auto;
+}
+.home-header-row{
+	padding-left: 15px;
+    padding-right: 15px;
+}
+.logo-container{
+	margin-top:2rem;
+}
+.home-title{
+	font-size: 35px;
+	text-align: center;
+}
+.home-border{
+	border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-top:20px;
+}
+.feature-col{
+	height:auto;
+}
+.img-container{
+	height:auto;
+	border:1px solid black;
+	box-sizing: content-box;
+	margin-top:20px;
+	background-color: #f3d1bc
+}
+.fig-container{
+	height: 80%;
+	width: 80%;
+	margin:auto;
+	display:block;
+	margin-top:25px;
+	}
+.image-size{
+	height: 400px;
+	width: 100%;
+}
+figcaption{
+	text-align: center;
+}
+.about-container{
+	height:300px;
+	width:100%;
+	border:1px solid black;
+}
+.pic{
+	height: 100%;
+	width: 100%;
+	margin:auto;
+	display:block;
 
 }
-.click-button{
-	height:50px;
-	width:30%;
-	background-color: white;
-	float:left;
-	margin:auto;
-	display:block;	
+.pic-col{
+	margin-top:30px;
 }
-.header{
-	height: 100px;
-	background-color: grey;
+.pic-des{
+	margin-top:30px;
 }
+.gallery-container{
+	height:auto;
+}
+.thumbnail{
+	height:200px;
+	width:100%;
+}
+.gallery-container{
+	text-align: center;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+.carousel-inner img {
+      width: 100%;
+      height:600px;
+  }
+  /*modal*/
+  .thumbnail {
+  max-width: 100%;
+}
+
+.italic { font-style: italic; }
+.small { font-size: 0.8em; }
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+
+
+
 
 
