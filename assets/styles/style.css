@@ -3,16 +3,25 @@
 	font-family: 'Noto Serif TC', serif;
 }
 .landing-container{	
-	background-color:#d9e6f2;
-	
+	background-color:#d9e6f2;	
 }
 .header{
-	background-color:  #7851a9;
+	background-color:  #d3d3d3;
 	height:50px;
+}
+.header-content{
+	font-family: 'Charmonman', cursive;
+	text-align: center;
+	font-weight: bold;
+	padding-top:15px;
 }
 .header-row{
 	height: 80px;
 	background-color: #336699;
+}
+.main-header-row{
+	background-color: #7851a9;
+
 }
 .orig-logo{
 	height:40px;
@@ -59,11 +68,15 @@ i{
 .footer-row{
 	background-color: #7851a9;
 	height:50px;
-	margin-top:10px;	
+}
+.home-footer-row{
+	background-color: #d3d3d3;
+	height:100px;
 }
 
 span{
 	color:black;
+
 }
 .main-container{
 	box-sizing: border-box;
@@ -77,6 +90,10 @@ span{
     padding-right: 15px;
 
 }
+.row.row-featured {
+    background-color: #7851a9;
+    margin-top: 20px;
+}
 
 .home-title{
 	font-size: 20px;
@@ -84,14 +101,15 @@ span{
 	margin-bottom: -1rem;
 	margin-top:1rem;
 }
-.nav-border{
-	/*border-top: 1px solid;*/
-    border-bottom: 1px solid;
-    /*margin-top:20px;*/
-}
+
 .feature-col{
 	height:auto;
+	background-color:#7851a9;
 }
+button.btn.btn-outside {
+	background-color:#7851a9;
+}
+
 .img-container{
 	height:auto;
 	box-sizing: content-box;
@@ -111,7 +129,6 @@ span{
 }
 figcaption{
 	text-align: center;
-	
 }
 
 .about-container{
@@ -177,14 +194,17 @@ figcaption{
 }
 
 .active{
-	background-color: #d9e6f2;
+	background-color:#d3d3d3;
 }
 .active-nav{
-	background-color: white;
+	background-color: #e6ccff;
 }
 a.nav-link.land.active {
     margin-top: 8px;
-    font-size: 17px;  
+    font-size: 12px;
+}
+a.nav-link{
+	color:black;
 }
 .form-group{
 	width: 100%;
@@ -231,6 +251,12 @@ h3.artist-title {
 	border:0px;
 	margin-top: 1rem;
 }
+.direction-row{
+	margin-top:2rem;
+	margin-bottom:-5px;
+
+}
+
 .btn{
 	width:100%;
 	height:100%;
