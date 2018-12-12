@@ -14,6 +14,7 @@
 	text-align: center;
 	font-weight: bold;
 	padding-top:15px;
+	color:#7851a9;
 }
 .header-row{
 	height: 80px;
@@ -68,10 +69,12 @@ i{
 .footer-row{
 	background-color: #7851a9;
 	height:50px;
+	text-align: center;
 }
 .home-footer-row{
 	background-color: #d3d3d3;
-	height:100px;
+	height:50px;
+	text-align: center;
 }
 
 span{
@@ -105,7 +108,12 @@ span{
 .feature-col{
 	height:auto;
 	background-color:#7851a9;
+
 }
+h6 strong{
+	color:white;
+}
+
 button.btn.btn-outside {
 	background-color:#7851a9;
 }
@@ -129,6 +137,7 @@ button.btn.btn-outside {
 }
 figcaption{
 	text-align: center;
+	color:white;
 }
 
 .about-container{
@@ -190,7 +199,7 @@ figcaption{
 	display: block;
 }
 .navbar-toggler-icon{
-	color:black;
+	color:white;
 }
 
 .active{
@@ -199,12 +208,12 @@ figcaption{
 .active-nav{
 	background-color: #e6ccff;
 }
-a.nav-link.land.active {
+/*a.nav-link.land.active {
     margin-top: 8px;
     font-size: 12px;
-}
+}*/
 a.nav-link{
-	color:black;
+	color:white;
 }
 .form-group{
 	width: 100%;
@@ -223,6 +232,9 @@ a.nav-link{
 h3.artist-title {
     margin-bottom: 15px;
 }
+figure{
+	text-align: center;
+}
 .bio{
 	text-align: justify;
 	font-size: 12px;
@@ -237,10 +249,11 @@ h3.artist-title {
 .fa{
 	font-size:50px;
 
+
 }
 .icon-large{
 	font-size:50px;
-	
+	color:blue;
 }
 .misvis{
 	margin-top:3rem;
@@ -260,6 +273,10 @@ h3.artist-title {
 .btn{
 	width:100%;
 	height:100%;
+	color:#7851a9;
+}
+button.btn.btn-inside {
+	background-color: white;
 }
 .figfont{
 	overflow: hidden;
@@ -269,12 +286,20 @@ h3.artist-title {
 	display: block;
 	margin:auto;
 }
+.modal-header{
+	background-color: #7851a9;
+}
 .modal-body{
-	height:500px;
+	height:530px;
 	width: 100%;
+	background-color: #7851a9;
 }
 .modal-footer{
-	margin-top:10px;
+	background-color: #7851a9;
+	border-top:-1px;
+}
+.modal-title{
+	color:white;
 }
 .btn-inside{
 	background-color:#336699; 
@@ -286,6 +311,7 @@ h3.artist-title {
 }
 .inside-figfont{
 	overflow: hidden;
+	font-size: 13px;
 }
 .modal-body-1{
 	height:560px;
