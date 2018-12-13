@@ -36,24 +36,29 @@ body, html {
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
-  border: 3px solid #f1f1f1;
+/*  border: 3px solid #f1f1f1;*/
   position: absolute;
-  top: 50%;
+  top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 80%;
-  padding: 20px;
+  padding: 0px;
   text-align: center;
+  width:65%;
 
  }  
  h2 small{
   color:white;
  } 
- h3{
+ h4{
   color: white;
+   text-decoration:none;
+   height:50px;
+   background-color:#0099cc;
  }
+
  .brush{
+  margin-top:5px;
   color:yellow;
  }
  .brush2{
@@ -62,6 +67,10 @@ body, html {
  .brush3{
   color:blue;
  }
- h3 .view:hover{
-  background-image: white;
+
+ a:visited{
+  color: white;
+ }
+ h4.view{
+  padding-top:6%;
  }
