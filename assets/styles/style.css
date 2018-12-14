@@ -199,8 +199,8 @@ figcaption{
 
 .lightbox img {
 	/** Pad the lightbox image */
-	max-width: 90%;
-	max-height: 80%;
+	max-width: 100%;
+	max-height: 100%;
 	margin-top: 2%;
 }
 
@@ -252,6 +252,9 @@ a.nav-link:visited{
 .misvis{
 	margin-top:3rem;
 	color:#1a001a;
+}
+.mission{
+	color:#4d004d;
 }
 .paragraph{
 	color:#4d004d;
